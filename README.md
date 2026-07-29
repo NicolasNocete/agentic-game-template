@@ -12,6 +12,18 @@ Plantilla academica para crear vertical slices con Godot, Unity o Phaser y flujo
 
 Los comandos usan nombres en ingles. Las instrucciones y los documentos generados estan en espanol.
 
+## Elegir un perfil
+
+La raiz es una plantilla fuente y no contiene un juego inicializado. `/bootstrap` copia el perfil elegido y los recursos compartidos al proyecto generado:
+
+- Godot: abre `game/project.godot` y ejecuta la escena principal desde el editor.
+- Unity: abre `game/` desde Unity Hub con la version acordada para la materia. Configura archivos `.meta` visibles y serializacion de assets en texto antes de colaborar.
+- Phaser: desde `game/`, instala las dependencias con `npm install` y ejecuta `npm run dev`.
+
+Despues de inicializar, completa `docs/project-manifest.md` con el motor, su version, lenguaje, plataforma, punto de entrada y forma de ejecucion. Tambien completa `docs/engine-guide.md` con requisitos, enlaces oficiales e instrucciones especificas del motor.
+
+No ejecutes los perfiles directamente desde `profiles/`: son fuentes para `/bootstrap`, no un proyecto unico jugable.
+
 ## Flujo recomendado
 
 ```text
