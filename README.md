@@ -4,7 +4,7 @@ Plantilla academica para crear vertical slices con Godot, Unity o Phaser y flujo
 
 ## Para estudiantes
 
-1. Crea un repositorio desde esta plantilla o clonal a en una carpeta nueva.
+1. Crea un repositorio desde esta plantilla o clónala en una carpeta nueva.
 2. Abre la raiz del proyecto con OpenCode.
 3. Ejecuta `/bootstrap godot`, `/bootstrap unity` o `/bootstrap phaser`.
 4. Ejecuta `/preproduction` para definir y documentar el proyecto antes de desarrollar.
