@@ -7,15 +7,15 @@ Plantilla academica para crear vertical slices con Godot, Unity o Phaser y flujo
 1. Crea un repositorio desde esta plantilla o clonal a en una carpeta nueva.
 2. Abre la raiz del proyecto con OpenCode.
 3. Ejecuta `/bootstrap godot`, `/bootstrap unity` o `/bootstrap phaser`.
-4. Ejecuta `/guide` para verificar el entorno y aprender la estructura.
-5. Completa `docs/vertical-slice-contract.md` antes de ampliar el alcance.
+4. Ejecuta `/preproduction` para definir y documentar el proyecto antes de desarrollar.
+5. Ejecuta `/guide` para verificar el entorno y aprender la estructura.
 
 Los comandos usan nombres en ingles. Las instrucciones y los documentos generados estan en espanol.
 
 ## Flujo recomendado
 
 ```text
-/guide -> /status -> /spec -> /implement -> /playtest -> /review -> /check -> /submit
+/bootstrap -> /preproduction -> /guide -> /status -> /spec -> /implement -> /playtest -> /review -> /check -> /submit
 ```
 
 ## Que contiene
@@ -28,6 +28,8 @@ Los comandos usan nombres en ingles. Las instrucciones y los documentos generado
 ## Principios
 
 - Una vertical slice es una experiencia breve, completa y jugable.
+- `/preproduction` completa la documentacion inicial del proyecto mediante una entrevista guiada y deja las definiciones pendientes explicitadas.
+- `docs/references.md` reune fuentes para documentar GDD, alcance, roadmap, riesgos y decisiones de produccion.
 - Las specs son opcionales para cambios pequenos y recomendadas para sistemas nuevos.
 - `main` debe mantenerse ejecutable.
 - OpenCode ayuda a razonar, documentar y verificar; el estudiante toma las decisiones.
