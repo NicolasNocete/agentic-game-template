@@ -1,0 +1,10 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+
+# Local builds and archives
+builds/
+dist/
+*.zip
