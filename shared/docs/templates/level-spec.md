@@ -9,3 +9,5 @@
 ## Assets requeridos
 
 ## Criterios de aceptacion
+
+## Pruebas manuales

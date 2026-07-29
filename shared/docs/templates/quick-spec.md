@@ -7,3 +7,5 @@
 ## Criterios de aceptacion
 
 - [ ]
+
+## Pruebas manuales

@@ -1,6 +1,6 @@
 # Perfil Godot
 
-Requiere Godot 4.x. Abre `game/project.godot` y ejecuta el proyecto con F6 o F5.
+Requiere una version exacta de Godot 4 acordada por la materia o el equipo y registrada en `docs/project-manifest.md` antes de inicializar. Abre `game/project.godot` con esa version y ejecuta el proyecto con F6 o F5.
 
 Documentacion oficial:
 
